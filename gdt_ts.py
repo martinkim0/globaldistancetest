@@ -5,6 +5,8 @@ import sys
 import numpy as np
 from pymol import cmd
 
+# Author: Martin Kim (martinkim0)
+
 """
 Script that computes the global distance test total score (GDT-TS) used in
 the CASP assessment for two protein structures - the ground truth and the 
@@ -27,6 +29,7 @@ def load_pair(dir: str, root: str='data/'):
 
     contents = os.listdir(path)
     if len(contents) != 2:
+        print(contents)
         raise Exception('Each data subdirectory must have exactly 2 files')
 
     pair = []

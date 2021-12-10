@@ -1,0 +1,8 @@
+ColabFold version 1.3
+https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb?authuser=1#scrollTo=kOblAo-xetgx
+use_amber     false
+use_templates true
+msa_mode      MMseqs2
+model_type    auto
+pair_mode     unpaired+paired 
+num_recycles  3
